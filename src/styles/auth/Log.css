@@ -1,0 +1,98 @@
+body {
+  margin: 0; /* hapus default margin */
+  height: 100vh;
+  background: linear-gradient(135deg, #075436, #2F3E46);
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.wrapper {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  background: linear-gradient(135deg, #075436, #2F3E46);
+  padding: 56px;
+  box-sizing: border-box;
+  width: 100%;
+}
+
+/* Card form */
+.wrapper form {
+  background: white;
+  padding: 2rem 2.5rem;
+  border-radius: 12px;
+  width: 100%;
+  max-width: 400px;
+  box-shadow: 0 6px 18px rgba(0, 0, 0, 0.15);
+}
+
+/* Judul */
+.company-name {
+  text-align: center;
+  font-size: 1.8rem;
+  margin-bottom: 5px;
+  color: #333;
+}
+
+.wrapper h4 {
+  text-align: center;
+  font-weight: 500;
+  margin-bottom: 1.5rem;
+  color: #555;
+}
+
+/* Input field */
+.input-box {
+  margin-bottom: 1rem;
+}
+
+.input-box input {
+  width: 100%;
+  padding: 0.75rem;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  outline: none;
+  font-size: 1rem;
+  transition: border-color 0.3s;
+}
+
+.input-box input:focus {
+  border-color: #4c6ef5;
+}
+
+/* Sudah ada akun text */
+.ada {
+  text-align: center;
+  margin-bottom: 1rem;
+  font-size: 0.9rem;
+  color: #555;
+}
+/* Tombol register */
+.bttn {
+  display: block;              /* pastikan block element */
+  width: 100%;                  /* isi penuh form */
+  padding: 0.75rem;
+  background: #0b0b0b;
+  color: rgb(252, 251, 251);
+  font-weight: 600;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+  transition: background 0.3s;
+  box-sizing: border-box;       /* cegah overflow */
+  text-align: center;           /* teks di tengah */
+  text-decoration: none;        /* hilangkan underline dari <a> */
+}
+
+.bttn:hover {
+  background: #333332;
+  color: #ccc;
+}
+
+
+html, body, #root {
+  margin: 0;
+  padding: 0;
+  width: 100%;
+  height: 100%;
+}

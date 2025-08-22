@@ -1,0 +1,26 @@
+nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #354F52;
+  padding: 5px 70px;
+}
+.logo{
+    color: #EEE6C8;
+    font-size: 3.2rem;
+    font-weight: bold;
+}
+.menu_kanan{
+    display: flex;
+    gap: 38px;
+    padding-right: 68px;
+}
+.menu_kanan button {
+  background: none;       
+  border: none;         
+  color: #EEE6C8;       
+  font-size: 14px;
+  font-weight: bold;
+  cursor: pointer;
+  padding: 0;
+}

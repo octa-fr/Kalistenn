@@ -1,0 +1,43 @@
+.footer {
+  padding: 90px 100px;
+  background: #173737 100%;
+  color: rgb(255, 255, 255);
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  min-height: 300px;
+  margin-top: 20px;
+}
+.footer-content {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+.footer-left {
+  max-width: 300px;
+}
+.logoo {
+  font-family: serif;
+  font-size: 48px;
+  margin: 0;
+  letter-spacing: 1px;
+}
+.footer-mid {
+  display: flex;
+  gap: 50px;
+}
+.footer-section h3 {
+  margin: 0 0 10px;
+  font-size: 18px;
+  font-weight: bold;
+}
+.footer-section p {
+  margin: 4px 0;
+  font-size: 16px;
+}
+.footer-bottom {
+  text-align: center;
+  margin-top: 150px;
+  font-style: italic;
+}
+
