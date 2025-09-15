@@ -5,7 +5,7 @@ function UserLayout() {
   return (
     <>
       <Navbar />
-        <Outlet /> {/* Di sini konten halaman admin akan muncul */}
+        <Outlet />
     </>
   );
 }
