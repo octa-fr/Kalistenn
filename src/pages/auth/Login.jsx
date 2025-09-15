@@ -2,7 +2,7 @@ import "../../styles/auth/Log.css";
 import { useNavigate } from "react-router-dom";
 import { useState } from "react";
 import { login } from "../../api";
-
+  
 function Login() {
   const navigate = useNavigate();
   const [email, setEmail] = useState("");
@@ -62,7 +62,7 @@ function Login() {
               href="#"
               onClick={(e) => {
                 e.preventDefault();
-                navigate("/auth/daftar");
+                navigate("/auth/register");
               }}
               className="text-blue-600 hover:underline"
             >
